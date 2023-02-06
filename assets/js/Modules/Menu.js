@@ -12,7 +12,6 @@ class Menu {
         if (e.code !== 'Escape' || !this.menuCheckbox.checked) return;
         this.menuCheckbox.checked = false;
     }
-
 }
 
 export default Menu;
